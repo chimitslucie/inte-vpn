@@ -439,6 +439,7 @@ a:hover {
 .subscription__content {
     max-width: 410px;
     max-height: 116px;
+    margin: 58px auto 58px 70px;
 }
 
 .subscription__title {
@@ -453,4 +454,8 @@ a:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;  
+}
+
+.btn.btn-primary.subscription-btn {
+    margin: 86px 70px 61px auto;
 }
