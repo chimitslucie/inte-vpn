@@ -425,15 +425,17 @@ a:hover {
 }
 
 .subscription {
+    width: 100%;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
     margin: 65px auto auto;
-}
-
-.subscription__block {
     display: flex;
     max-width: 1140px;
     max-height: 233px;
+    position: absolute;
+    left: 50%;
+    box-shadow: 10px 5px 5px #0D1025;
+    transform: translateX(-50%);
 }
 
 .subscription__content {
@@ -453,9 +455,9 @@ a:hover {
     color: var(--grey);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;  
+    line-height: 30px;
 }
 
-.btn.btn-primary.subscription-btn {
-    margin: 86px 70px 61px auto;
+.subscription-btn {
+    margin: 86px 70px 61px 340px;
 }
