@@ -461,3 +461,15 @@ a:hover {
 .subscription-btn {
     margin: 86px 70px 61px 340px;
 }
+
+.footer {
+    max-width: 1440px;
+    max-height: 563px;
+    position: relative;
+    padding: 180px 150px 100px 150px;
+}
+
+.social {
+    max-width: 33px;
+    max-height: 33px;
+}
