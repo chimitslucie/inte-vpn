@@ -406,6 +406,7 @@ a:hover {
 
 .notice__content {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .notice__content--title {
@@ -424,6 +425,11 @@ a:hover {
     line-height: 30px;
 }
 
+.recapitulatif {
+    height: 350px;
+    background-color: red;
+}
+
 .subscription {
     width: 100%;
     border: 2px solid #DDDDDD;
@@ -431,11 +437,11 @@ a:hover {
     margin: 65px auto auto;
     display: flex;
     max-width: 1140px;
-    max-height: 233px;
-    position: absolute;
-    left: 50%;
-    box-shadow: 10px 5px 5px #0D1025;
-    transform: translateX(-50%);
+    position: relative;
+    box-shadow: 10px 5px 30px #D7D7DB;
+    z-index: 1;
+    background-color: #ffff;
+    top: 140px;
 }
 
 .subscription__content {
@@ -463,16 +469,13 @@ a:hover {
 }
 
 .footer {
-    max-width: 1440px;
-    max-height: 563px;
     position: relative;
     padding-top: 180px;
+    background-color: #F8F8F8;
 }
 
 .social {
     max-width: 33px;
-    max-height: 33px;
-}
 
 .footer__two-title {
     font-size: 18px;
@@ -490,10 +493,6 @@ a:hover {
 
 .footer__engage {
     max-width: 123px;
-    max-height: 280px;
-}
 
 .footer__earn {
     max-width: 121px;
-    max-height: 120px;
-}
