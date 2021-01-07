@@ -472,16 +472,50 @@ a:hover {
     position: relative;
     padding-top: 180px;
     background-color: #F8F8F8;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer__text {
+    padding-top: 20px;
+    max-width: 340px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.footer__text--name {
+    font-weight: 500;
 }
 
 .social {
     max-width: 33px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.social:last-child {
+    margin-right: 0px;
+}
+
+.media__text {
+    margin-bottom: 141px;
+    color: #AFB5C0;
+    font-size: 16px;
+}
+
+.text {
+    font-weight: 500;
+}
 
 .footer__two-title {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     white-space: nowrap;
+    margin-bottom: 20px;
 }
 
 .footer__two-text {
@@ -491,8 +525,38 @@ a:hover {
     white-space: nowrap;
 }
 
+.footer__product {
+    max-width: 74px;
+}
+
+.footer__product-text {
+    margin-bottom: 10px;
+}
+
+.footer__product-text:last-child {
+    margin-bottom: 0;
+}
+
 .footer__engage {
     max-width: 123px;
+}
+
+.footer__engage-text {
+    margin-bottom: 10px;
+}
+
+.footer__engage-text:last-child {
+    margin-bottom: 0;
+}
 
 .footer__earn {
     max-width: 121px;
+}
+
+.footer__earn-text {
+    margin-bottom: 10px;
+}
+
+.footer__earn-text:last-child {
+    margin-bottom: 0;
+}
