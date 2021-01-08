@@ -425,9 +425,16 @@ a:hover {
     line-height: 30px;
 }
 
-.recapitulatif {
-    height: 350px;
-    background-color: red;
+.slider__card {
+    max-width: 400px;
+}
+
+.slider__card--title {
+    display: flex;
+}
+
+.sider__card--photo {
+    max-width: 50px;
 }
 
 .subscription {
