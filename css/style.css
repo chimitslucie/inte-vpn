@@ -437,6 +437,18 @@ a:hover {
     max-width: 50px;
 }
 
+.slider__card--name {
+    margin: 11px 108px 26px 20px;
+}
+
+.slider__card--note {
+    margin-right: 10px;
+}
+
+.slider__card--star {
+    max-width: 16px;
+}
+
 .subscription {
     width: 100%;
     border: 2px solid #DDDDDD;
