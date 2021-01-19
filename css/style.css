@@ -427,6 +427,8 @@ a:hover {
 
 .slider__card {
     max-width: 400px;
+    border: solid #DDDDDD;
+    border-radius: 10px;
 }
 
 .slider__card--title {
