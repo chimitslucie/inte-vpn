@@ -429,6 +429,8 @@ a:hover {
     max-width: 400px;
     border: solid #DDDDDD;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .slider__card--title {
@@ -444,11 +446,19 @@ a:hover {
 }
 
 .slider__card--note {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.slider__note {
     margin-right: 10px;
+    max-height: 16px;
 }
 
 .slider__card--star {
     max-width: 16px;
+    max-height: 16px;
 }
 
 .subscription {
